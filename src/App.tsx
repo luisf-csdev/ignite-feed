@@ -31,13 +31,18 @@ const posts: PostType[] = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/erik-san.png',
+      avatarUrl: 'https://github.com/ErikSsilva.png',
       name: 'Erik Anthonny',
       role: 'IT Student',
     },
     content: [
       { type: 'paragraph', content: 'Hi everyone 👋' },
       { type: 'paragraph', content: 'I hope you all are having a nice day!' },
+      {
+        type: 'link',
+        content: 'Check my GitHub!',
+        url: 'https://github.com/ErikSsilva',
+      },
     ],
     publishedAt: new Date('2023-11-16 15:19:00'),
   },
